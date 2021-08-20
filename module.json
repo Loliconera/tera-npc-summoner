@@ -1,16 +1,15 @@
 {
-    "author": "<font color='#00FFFF'>Salchy</font>",
-    "description": "Salchy NPC Summomer",
     "disableAutoUpdate": false,
-    "disabled": false,
-    "donationUrl": "",
-    "name": "salchysummoner",
+    "name": "Tera NPC Summomer",
+    "author": "Salchy / Loliconera",
+    "description": "Convoca cualquier NPC/Merchant desde cualquier lugar",
+    "version": "1.0.0",
     "options": {
-        "niceName": "<font color='#FDD017'>Salchy Summoner</font>",
-        "guiName": "<font color='#FDD017'>Salchy Summoner</font>",
+        "niceName": "Tera NPC Summomer",
+        "guiName": "Tera NPC Summomer",
+        "settingsFile": "config.json",
         "reloadable": true
     },
-    "servers": ["https://raw.githubusercontent.com/salchy-tera/tera-npc-summoner/master/"],
-    "supportUrl": "https://github.com/salchy-tera/tera-npc-summoner/issues",
-    "version": "<font color='#00FFFF'>1.0.0</font>"
+    "servers": ["https://raw.githubusercontent.com/Loliconera/tera-npc-summoner/master/"],
+    "supportUrl": "https://github.com/Loliconera/tera-npc-summoner/issues"
 }

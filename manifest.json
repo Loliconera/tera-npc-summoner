@@ -1,10 +1,10 @@
 {
     "files": {
         "C_REQUEST_CONTRACT.50.def": "25e5c8f60212faaf38ad041b765cdb84a5abebc1517f0da6b97d37edfb9a5acd",
-        "config.json": "f169c0153e89fe4bd4af0ef91c82a95c6479d8e8755b5ecf0c542f6ad65ce0ae",
-        "index.js": "a9c45b7acfbc5788752cd911c96674a509ce0153e9a1e53d4cf7093646b92466",
-        "module.config.json": "c0a16dfca2dc00eb2f4c5670a98fcc163fd4f85c34b04fe825e6c3e79de88ca1",
-        "module.json": "016dc6697687fa9b0026b9e99d666e7fd69422890badc32251b9b5a89191551b"
+        "README.md": "ac9c15e06a2bd7abbb67150a997e4a8c655a4be6df886d833e80c19a2cf99255",
+        "config.json": "c3571b06016bd781eedfa49e17d1e7118f4b898cf8b052034fe35687b8960c2a",
+        "index.js": "0b7e030c54b99b6422484951bae4c7a13994f652b3a23041a61ce143f0772e23",
+        "module.json": "d90cf24425679079903de7b829e40586a3ee277cba466b8ddd5760daec1bc285"
     },
     "defs": {
         "C_REQUEST_CONTRACT": 50,

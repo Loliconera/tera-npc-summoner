@@ -88,19 +88,19 @@ module.exports = function SalchySummonerMaster(script) {
 			"value": 1
 		},
 		{
-			"name": "merchant",
+			"name": "Merchant",
 			"type": 9,
 			"npcId": merchant_id,
 			"value": 70310
 		},		
 		{
-			"name": "vg",
+			"name": "Vanguard",
 			"type": 49,
 			"npcId": vg_id,
 			"value": 609
 		},
 		{
-			"name": "sp",
+			"name": "Specialty Store",
 			"type": 9,
 			"npcId": sp_id,
 			"value": 250
@@ -116,7 +116,7 @@ module.exports = function SalchySummonerMaster(script) {
         if (arg) {
 			const summon = getSum(arg);
             if (!summon) {
-                script.command.message(`Invalid argument idiot`);
+                script.command.message(`Argumento no valido`);
                 return;
             }
 			if(summon && summon.name!="broker") {
@@ -142,7 +142,7 @@ module.exports = function SalchySummonerMaster(script) {
         parse(array, title, d = '') {
             for (let i = 0; i < array.length; i++) {
                 if (d.length >= 16000) {
-                    d += `Gui data limit exceeded, some values may be missing.`;
+                    d += `Se supero el limite de datos de la interfaz grafica de usuario, es posible que falten algunos valores.`;
                     break;
                 }
                 if (array[i].command) d += `<a href="admincommand:/@${array[i].command}">${array[i].text}</a>`;
@@ -166,7 +166,7 @@ module.exports = function SalchySummonerMaster(script) {
                     command: `sum ${x.name}`,
                 });
             });
-            gui.parse(list, `<font color="#E0B0FF">Summoner Menu</font>`);
+            gui.parse(list, `<font color="#E0B0FF">Menú Invocador</font>`);
             list = [];
         }
     }
@@ -192,22 +192,22 @@ module.exports = function SalchySummonerMaster(script) {
 				config.merchant_id = Number(merchant_id);
 				summons[1].npcId = merchant_id
 				settingUpdate();				
-				console.log("Merchant NPC identified, config updated: ", merchant_id);
+				console.log("Merchant NPC identificado, configuracion actualizada: ", merchant_id);
 				break;
 			case vg_template:
 				vg_id = packet.gameId;
 				config.vg_id = Number(vg_id);
 				summons[2].npcId = vg_id
 				settingUpdate();				
-				console.log("Merchant NPC identified, config updated: ", merchant_id);				
-				console.log("VG NPC identified: ", vg_id);
+				console.log("Merchant NPC identificado, configuracion actualizada: ", merchant_id);				
+				console.log("VG NPC identificado: ", vg_id);
 				break;	
 			case sp_template:
 				sp_id = packet.gameId;
 				config.sp_id = Number(sp_id);
 				summons[3].npcId = sp_id
 				settingUpdate();				
-				console.log("SP NPC identified, config updated: ", sp_id);
+				console.log("SP NPC identificado, configuracion actualizada: ", sp_id);
 				break;				
 			default:
 				break;
