@@ -8,19 +8,13 @@ Convoca a cualquier NPC / Merchant desde cualquier lugar.
 Toolbox(/8) | Descripción del comando
 --- | ---
 **sum** | Muestra un menú GUI con los diferentes NPC para convocar
-
 **sum bank** | Convocar banco
-
 **sum merchant** | Convocar merchant
-
 **sum vg** | Convocar vanguard credit merchant
-
 **sum sp** | Convocar speciality store merchant
-
 **sum broker** | Convocar broker
 
 ## Menú GUI
-
 * En el canal de chat **Toolbox(/8)** escriba el siguiente comando **sum** para mostrar una interfaz gráfica de usuario del modulo.   
   ![](https://i.imgur.com/VG2yRG4.png)   
 
